@@ -11,12 +11,12 @@ import whitening from "../../../images/images/whitening.png";
 const services = [
   {
     name: "Fluoride Treatment",
-    description: `Fluoride treatments are typically professional treatments containing a high concentration of fluoride that a dentist or hygienist will apply to a person's teeth to improve health and reduce the risk of cavities. These in-office treatments may take the form of a solution, gel, foam, or varnish.`,
+    description: `Fluoride treatments are typically professional treatments containing a high concentration of fluoride that a dentist or hygienist will apply to a person's teeth to improve health and reduce the risk.`,
     img: fluoride,
   },
   {
     name: "Cavity",
-    description: `A cavity is a hole in a tooth that develops from tooth decay. Cavities form when acids in the mouth wear down, or erode, a tooth's hard outer layer (enamel). Anyone can get a cavity. Proper brushing, flossing and dental cleanings can prevent cavities (sometimes called dental caries).`,
+    description: `A cavity is a hole in a tooth that develops from tooth decay. Cavities form when acids in the mouth wear down, or erode, a tooth's hard outer layer (enamel). Anyone can get a cavity.`,
     img: cavity,
   },
   {
@@ -28,7 +28,7 @@ const services = [
 
 const Services = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box className="mx-auto" spacing={4} sx={{ flexGrow: 1 }}>
       <Container>
         <Grid
           container
