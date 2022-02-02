@@ -3,7 +3,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 
 import Grid from "@mui/material/Grid";
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import Service from "../Service/Service";
 import fluoride from "../../../images/images/fluoride.png";
 import cavity from "../../../images/images/cavity.png";
@@ -28,8 +28,13 @@ const services = [
 
 const Services = () => {
   return (
-    <Box className="mx-auto" spacing={4} sx={{ flexGrow: 1 }}>
+    <Box className="mx-auto">
       <Container>
+
+<Typography sx={{fontSize:24, fontWeight:"bold", marginTop:4, color:"#1976d2"}}>
+Our Services
+</Typography>
+
         <Grid
           container
           spacing={{ xs: 2, md: 3 }}
